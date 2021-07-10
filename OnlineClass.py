@@ -183,7 +183,7 @@ def check_updates(close):
             messagebox.showinfo('Software Update', 'Update Available!')
             toupdate = messagebox.askyesno('Update Available', f'{__AppName__} {__version__} needs to update to version {latest}')
             if toupdate is True:
-                webbrowser.open_new_tab('https://github.com/vens8/Online-Class-Helper-Mac/blob/main/OCH.app.zip?raw=true')
+                webbrowser.open_new_tab('https://github.com/vens8/Online-Class-Helper-Mac/blob/main/OCH_Setup.dmg?raw=true')
                 root.destroy()
             else:
                 pass
