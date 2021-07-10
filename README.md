@@ -19,7 +19,8 @@ OCH - Online Class Helper is a tool made for students attending online classes w
   If your device prompts you that "OCH.app can't be opened because it's from an unidentified developer": System Preferenes > Security & Privacy and click on 'Open anyway'.
     - Open System Preferences
     - Open Security & Privacy
-    - You'll see an button that says "open anyway". Click it and click "open" on the popup that opens. Then your application will run
+    - You'll see an button that says "open anyway". Click it and click "open" on the popup that opens. Then your application will run.
+ 
   The above mentioned steps would have to be done only for the first time you're installing OCH.
 
 - Set up your classes by going to the Add/Edit classes tab. You can also load a .dat/.txt template using the 'load file' button. So you can make and share templates of your classes with each other! 
