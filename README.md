@@ -12,19 +12,15 @@ OCH - Online Class Helper is a tool made for students attending online classes w
 
 # Installation
 
-- Download and run the OCH.zip file.
+- Download and run the OCH_Setup.dmg file.
 
-- Extract the zip file and run OCH.app
+- It will unpack and you'll find the OCH app (with the icon). Drag this app to your Applications folder on your Finder and double click to run it.
   
-  If your device prompts you that you cannot open the application, it's because you have third party applications permissions turned off. So, go to System Preferenes > Security & Privacy and click on 'Open anyway'.
-  
-- If running the app shows you an error (for eg. Online Class Error: Open Console / Terminate) and doesn't open the app, this is because OCH for Mac is an early release and cannot be run directly yet. However to use OCH for Mac, simply follow the following steps:
-
-  - Right click OCH.app and click on "Open package contents"
-  - Go to Contents > MacOS
-  - Open the OCH (exec) file and you're good to go.
- 
-  Sorry for the inconvenience, it will be fixed as soon as possible for the next update.
+  If your device prompts you that "OCH.app can't be opened because it's from an unidentified developer": System Preferenes > Security & Privacy and click on 'Open anyway'.
+    - Open System Preferences
+    - Open Security & Privacy
+    - You'll see an button that says "open anyway". Click it and click "open" on the popup that opens. Then your application will run
+  The above mentioned steps would have to be done only for the first time you're installing OCH.
 
 - Set up your classes by going to the Add/Edit classes tab. You can also load a .dat/.txt template using the 'load file' button. So you can make and share templates of your classes with each other! 
 
