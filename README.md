@@ -16,7 +16,7 @@ OCH - Online Class Helper is a tool made for students attending online classes w
 
 - It will unpack and you'll find the OCH app (with the icon). Drag this app to your Applications folder on your Finder and double click to run it.
   
-  If your device prompts you that "OCH.app can't be opened because it's from an unidentified developer": System Preferenes > Security & Privacy and click on 'Open anyway'.
+  If your device prompts you that "OCH.app can't be opened because it's from an unidentified developer":
     - Open System Preferences
     - Open Security & Privacy
     - You'll see an button that says "open anyway". Click it and click "open" on the popup that opens. Then your application will run.
