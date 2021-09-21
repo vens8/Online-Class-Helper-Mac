@@ -222,8 +222,8 @@ pickle_in = open(data, "rb")
 classes = pickle.load(pickle_in)
 pickle_in.close()
 
-
 # Functions
+
 
 def check_updates(close):  # close variable is to differentiate from button call and automatic prompt at startup
     try:
@@ -315,21 +315,22 @@ def live_status():
                     if current_time >= j[1] and current_time < j[2]:
                         status = f"Current class:        {j[0]}\nStart time:            {j[1]}\nEnd time:              {j[2]}\n"
                         for a in classes:
-                            for b in a[1]:
-                                if settings['notifications'] and notified == False and time_diff(b[1], current_time) == int(
-                                        minutes[settings['noti_time']]) * 60:
-                                    if settings['launch']:
-                                        notify(f"{b[0]} class starts in {minutes[settings['noti_time']]} minutes!",
-                                               "Launching to your class now...", b[3], settings['launch'])
-                                    else:
-                                        notify(f"{b[0]} class starts in {minutes[settings['noti_time']]} minutes!",
-                                               "Click to open OCH.", b[3], settings['launch'])
-                                    if not notified_list:
-                                        notified_list.append(current_time)
-                                        notified = True
-                                if current_time not in notified_list:
-                                    notified_list.clear()
-                                    notified = False
+                            if today == a[0]:
+                                for b in a[1]:
+                                    if settings['notifications'] and notified == False and time_diff(b[1], current_time) == int(
+                                            minutes[settings['noti_time']]) * 60:
+                                        if settings['launch']:
+                                            notify(f"{b[0]} class starts in {minutes[settings['noti_time']]} minutes!",
+                                                   "Launching to your class now...", b[3], settings['launch'])
+                                        else:
+                                            notify(f"{b[0]} class starts in {minutes[settings['noti_time']]} minutes!",
+                                                   "Click to open OCH.", b[3], settings['launch'])
+                                        if not notified_list:
+                                            notified_list.append(current_time)
+                                            notified = True
+                                    if current_time not in notified_list:
+                                        notified_list.clear()
+                                        notified = False
                         return status
                     elif settings['notifications'] and notified == False and time_diff(j[1], current_time) == int(minutes[settings['noti_time']]) * 60:
                         if settings['launch']:
@@ -711,6 +712,7 @@ cb2 = tk.IntVar()
 cb3 = tk.IntVar()
 rb1 = tk.IntVar()
 
+
 def savesettings():
     global settings
     system_out = open("data/settings.dat", "wb")  # Change the value in the DAT file
@@ -782,9 +784,9 @@ def sendFeedback():
         return
     port = 465  # 465 for SSL and 587 for TSL
     smtp_server = "smtp.gmail.com"
-    sender_email = ""
-    receiver_email = ""  # Gmail address
-    password = ""  # Password for E-mail
+    sender_email = "@gmail.com"
+    receiver_email = "@gmail.com"
+    password = ""  # Email password
 
     message = MIMEMultipart("alternative")
     if type:  # whether feedback/suggestion radio button is selected before sending.
