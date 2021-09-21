@@ -4,11 +4,17 @@ Attend online classes with one click!
 OCH - Online Class Helper is a tool made for students attending online classes which allows them to join and attend their classes hassle-free with a single click. Unable to organize all your class links throughout your week? Add your classes once they're organized and tabulated. You can also make and share templates with your friends which can save them time.
 
 # Features
-- Organized Classes
+- Tablulated and organized classes
 
 - Easily add, edit or delete classes
 
 - Make, share and load templates
+
+- Get notified and automatically launch your class
+
+- Easily update to the latest version from within the app
+
+[For all the updates and features added for different versions of OCH, please refer to ReleaseNotes.txt]
 
 # Installation
 
@@ -16,10 +22,10 @@ OCH - Online Class Helper is a tool made for students attending online classes w
 
 - It will unpack and you'll find the OCH app (with the icon). Drag this app to your Applications folder on your Finder and double click to run it.
   
-  If your device prompts you that "OCH.app can't be opened because it's from an unidentified developer":
+  If your device prompts you with "OCH.app can't be opened because it's from an unidentified developer":
     - Open System Preferences
     - Open Security & Privacy
-    - You'll see an button that says "open anyway". Click it and click "open" on the popup that opens. Then your application will run.
+    - You'll see a button that says "open anyway". Click it and click "open" on the popup that opens. Then your application will run.
  
   The above mentioned steps would have to be done only for the first time you're installing OCH.
 
@@ -33,7 +39,7 @@ OCH - Online Class Helper is a tool made for students attending online classes w
 Do not modify/delete any of the files in the root directory or it will result in the malfunctioning or improper loading of the program
 
 # Contact
-For any bugs, issues, help, feature requests, contact me via the Help>>Contact on OCH or my contact details are as follows:
+For any bugs, issues, help, feature requests, contact me via the 'Send Feedback' menu on OCH or through:
 
 - Personal E-mail: vensr.maddula@gmail.com
 - Personal Instagram: https://www.instagram.com/vens8/
